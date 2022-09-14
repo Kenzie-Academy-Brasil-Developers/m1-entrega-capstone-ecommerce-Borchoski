@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+        </style>
+    <title>Document</title>
+</head>
+<body>
+    <header class="headerContainer"> 
+            <section><h1>Weartake</h1></section>
+            <section class="sectionNav"><span class="nav">Todos</span> <span class="nav">Acessórios</span> <span class="nav">Calçados</span> <span class="nav">Camisetas</span> </section>
+    </header>
+    <main class="mainContainer">
+        <div class="divCards">   
+            <ul>
+                
+            </ul>
+        </div>
+        <div class="divCarrinho">   
+            <section class="butPesquisar">
+                <input id="input" type="text" placeholder="Digite aqui sua pesquisa">
+                <button>Pesquisar</button>
+            </section>
+            <section class="carrinho">
+                <span class="span1"><h3>Carrinho de compras</h3></span>
+                <span class="span2">
+                    <ul id="ulCarrinho">
+                        
+                    </ul>
+                </span>
+            </section>
+            <div>
+                <section class="section1">
+                    <span>Quantidade:</span> <span id="quantidade">x</span>
+                </section>
+                <section class="section2">
+                    <span>Total:</span> <span id="valor">R$ X</span>
+                </section>
+            </div>
+        </div>
+    </main>
+    <script src="./js/database.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>

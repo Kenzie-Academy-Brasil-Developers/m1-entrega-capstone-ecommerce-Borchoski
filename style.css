@@ -1,0 +1,191 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family: 'Inter', sans-serif;
+}
+.headerContainer{
+    
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.headerContainer h1{
+    font-size: 28px;
+}
+
+.nav{
+    margin: 0 10px;
+}
+.mainContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    padding: 35px 25px;
+}
+.divCards{
+    display: flex;
+    width: 75%;
+}
+.divCards ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.divCards ul li{
+    margin-bottom: 25px;
+    margin: 10px 10px;
+    border: solid #F5F5F5 2px;
+    width: 30%;
+    border-radius: 5px;
+}
+.divCards ul li figure{
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+}
+.divCards ul li section{
+    padding: 10px;
+}
+.depart{
+    background-color: #2E245E;
+    color: white;
+    padding: 3px 5px;
+    width: 95px;
+    display: flex;
+    justify-content: center;    
+}
+.divCards ul li section h3{
+    padding: 10px 0;
+}
+.divCards ul li section p{
+    padding: 10px 0;
+}
+.divCards ul li section h4{
+    padding: 10px 0;
+}
+.divCards ul li section button{
+    border: none;
+    background-color: white;
+}
+.divCarrinho{
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    width: 30%; 
+}
+#input{
+    background-color: #F5F5F5;
+    border: none;
+    padding: 7px;
+    border-radius: 2px;
+}
+.butPesquisar{
+    width: 100%;
+}
+.butPesquisar button{
+    background-color: #37268C;
+    color: white;
+    border: none;
+    padding: 7px;
+    margin-left: 5px;
+}
+.span1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #37268C ;
+    color: white;
+    margin-top: 15px;
+    padding: 5px;
+    align-items: center;
+    height: 45px;
+}
+
+.carrinho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.span2{
+    background-color: #F5F5F5;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+}
+.divCards ul li:hover{
+    border: solid #37268C 2px;
+    border-radius: 5px;
+}
+ul li section button:hover{
+    text-decoration: underline;
+    color: #37268C ;
+}
+.span2 ul{
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    overflow: auto;
+}
+.span2 ul li{
+    display: flex;
+    margin: 5px;
+    
+}
+.span2 ul li figure{
+    width: 30%;
+    background-color:white ;
+}
+.span2 figure img{
+    width: 100%;
+}
+.span2 ul li section{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.span2 ul li section h6{
+   color: #37268C;
+   font-weight:bold ;
+}
+.span2 ul li section button{
+    border: none;
+    background-color:#F5F5F5 ;
+}
+.divCarrinho div{
+    background-color:#333333 ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.section1{
+    padding: 15px 7px;
+    display: flex;
+    justify-content: space-between;
+}
+.section2{
+    padding: 15px 7px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav:hover{
+    
+    color:#37268C ;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
